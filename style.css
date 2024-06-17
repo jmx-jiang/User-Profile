@@ -1,0 +1,53 @@
+body {
+  background-color: #0093e9;
+  background-attachment: fixed;
+  height: 100vh;
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  display: flex;
+  justify-content: center;
+}
+
+#phone {
+  height: fit-content;
+  width: 400px;
+  background-color: aqua;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  margin-top: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+main {
+  margin-top: 10px;
+  padding: 10px;
+  width: 80%;
+  height: fit-content;
+  background-color: aquamarine;
+}
+
+img {
+  width: 100px;
+}
+
+@media only screen and (min-height: 511.2px) {
+  body {
+    align-items: center;
+  }
+}
